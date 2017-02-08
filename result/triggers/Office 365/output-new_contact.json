@@ -1,0 +1,60 @@
+{
+  "name": "Office 365-new_contact",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "categories"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "imAddresses"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "department"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "officeLocation"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "profession"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "spouseName"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "children"
+      ]
+    }
+  ]
+}

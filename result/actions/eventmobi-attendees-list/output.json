@@ -1,0 +1,31 @@
+{
+  "name": "eventmobi-attendees-list",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "icon_class"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "color_class"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "items",
+        "items",
+        "properties",
+        "image50"
+      ]
+    }
+  ]
+}

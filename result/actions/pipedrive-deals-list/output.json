@@ -1,0 +1,48 @@
+{
+  "name": "pipedrive-deals-list",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "deals",
+        "items",
+        "properties",
+        "user_id"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "deals",
+        "items",
+        "properties",
+        "person_id"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "deals",
+        "items",
+        "properties",
+        "org_id"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "deals"
+      ]
+    }
+  ]
+}

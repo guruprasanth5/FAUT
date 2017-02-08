@@ -1,0 +1,38 @@
+{
+  "name": "onedrive-folder-file-details",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "createdBy",
+        "properties",
+        "user"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "lastModifiedBy",
+        "properties",
+        "application"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "lastModifiedBy",
+        "properties",
+        "user"
+      ]
+    }
+  ]
+}

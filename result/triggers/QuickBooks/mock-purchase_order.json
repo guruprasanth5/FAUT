@@ -1,0 +1,22 @@
+{
+  "name": "QuickBooks",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "schema must have a type.",
+      "path": [
+        "CustomField",
+        0
+      ]
+    },
+    {
+      "message": "ClassRef is missing.",
+      "path": [
+        "AccountBasedExpenseLineDetails",
+        0,
+        "AccountBasedExpenseLineDetail"
+      ]
+    }
+  ]
+}

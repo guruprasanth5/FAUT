@@ -1,0 +1,25 @@
+{
+  "name": "eventbrite-organizers-get",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "organizers"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "pagination"
+      ]
+    }
+  ]
+}

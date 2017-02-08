@@ -1,0 +1,30 @@
+{
+  "name": "JIVE",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "schema must have a type.",
+      "path": [
+        "jive",
+        "profile",
+        0
+      ]
+    },
+    {
+      "message": "schema must have a type.",
+      "path": [
+        "jive",
+        "profile",
+        1
+      ]
+    },
+    {
+      "message": "schema must have a type.",
+      "path": [
+        "phoneNumbers",
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "office365-event-update",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "changeKey"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "categories"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "hasAttachments"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "location",
+        "properties",
+        "displayName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "showAs"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "responseRequested"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "attendees"
+      ]
+    }
+  ]
+}

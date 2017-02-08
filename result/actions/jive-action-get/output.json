@@ -1,0 +1,81 @@
+{
+  "name": "jive-action-get",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "url"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "published"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "title"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "content"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "verb"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "actor"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "actor",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "actor",
+        "properties",
+        "displayName"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "freshdesk-customers-get",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "companies",
+        "items",
+        "properties",
+        "domains"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "companies",
+        "items",
+        "properties",
+        "custom_fields"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "companies"
+      ]
+    }
+  ]
+}

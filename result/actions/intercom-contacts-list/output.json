@@ -1,0 +1,42 @@
+{
+  "name": "intercom-contacts-list",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "contacts",
+        "items",
+        "properties",
+        "companies",
+        "properties",
+        "companies",
+        "items"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "contacts",
+        "items",
+        "properties",
+        "social_profiles",
+        "properties",
+        "social_profiles"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "contacts",
+        "items",
+        "properties",
+        "custom_attributes"
+      ]
+    }
+  ]
+}

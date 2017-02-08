@@ -1,0 +1,61 @@
+{
+  "name": "salesforce-emailtemplates-get",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "LastUsedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastUsedDate"
+      ]
+    },
+    {
+      "message": "CreatedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "CreatedDate"
+      ]
+    },
+    {
+      "message": "LastModifiedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastModifiedDate"
+      ]
+    },
+    {
+      "message": "SystemModstamp in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "SystemModstamp"
+      ]
+    },
+    {
+      "message": "ApiVersion in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "ApiVersion"
+      ]
+    }
+  ]
+}

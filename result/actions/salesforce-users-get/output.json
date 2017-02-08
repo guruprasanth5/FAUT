@@ -1,0 +1,161 @@
+{
+  "name": "salesforce-users-get",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "Latitude in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "Latitude"
+      ]
+    },
+    {
+      "message": "Longitude in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "Longitude"
+      ]
+    },
+    {
+      "message": "Email in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "Email"
+      ]
+    },
+    {
+      "message": "SenderEmail in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "SenderEmail"
+      ]
+    },
+    {
+      "message": "LastLoginDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastLoginDate"
+      ]
+    },
+    {
+      "message": "LastPasswordChangeDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastPasswordChangeDate"
+      ]
+    },
+    {
+      "message": "CreatedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "CreatedDate"
+      ]
+    },
+    {
+      "message": "LastModifiedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastModifiedDate"
+      ]
+    },
+    {
+      "message": "SystemModstamp in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "SystemModstamp"
+      ]
+    },
+    {
+      "message": "OfflineTrialExpirationDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "OfflineTrialExpirationDate"
+      ]
+    },
+    {
+      "message": "OfflinePdaTrialExpirationDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "OfflinePdaTrialExpirationDate"
+      ]
+    },
+    {
+      "message": "FullPhotoUrl in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "FullPhotoUrl"
+      ]
+    },
+    {
+      "message": "SmallPhotoUrl in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "SmallPhotoUrl"
+      ]
+    },
+    {
+      "message": "LastViewedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastViewedDate"
+      ]
+    },
+    {
+      "message": "LastReferencedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastReferencedDate"
+      ]
+    }
+  ]
+}

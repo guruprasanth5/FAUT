@@ -1,0 +1,38 @@
+{
+  "name": "hubspot-engagement-create",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "createdAt in properties should have a matching type.",
+      "path": [
+        "properties",
+        "engagement",
+        "properties",
+        "createdAt"
+      ]
+    },
+    {
+      "message": "lastUpdated in properties should have a matching type.",
+      "path": [
+        "properties",
+        "engagement",
+        "properties",
+        "lastUpdated"
+      ]
+    },
+    {
+      "message": "timestamp in properties should have a matching type.",
+      "path": [
+        "properties",
+        "engagement",
+        "properties",
+        "timestamp"
+      ]
+    }
+  ]
+}

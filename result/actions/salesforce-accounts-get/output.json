@@ -1,0 +1,71 @@
+{
+  "name": "salesforce-accounts-get",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "CreatedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "CreatedDate"
+      ]
+    },
+    {
+      "message": "LastModifiedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastModifiedDate"
+      ]
+    },
+    {
+      "message": "LastActivityDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastActivityDate"
+      ]
+    },
+    {
+      "message": "LastViewedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastViewedDate"
+      ]
+    },
+    {
+      "message": "LastReferencedDate in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "LastReferencedDate"
+      ]
+    },
+    {
+      "message": "YearStarted in properties should have a matching type.",
+      "path": [
+        "properties",
+        "records",
+        "items",
+        "properties",
+        "YearStarted"
+      ]
+    }
+  ]
+}

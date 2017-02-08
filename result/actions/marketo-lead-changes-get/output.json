@@ -1,0 +1,31 @@
+{
+  "name": "marketo-lead-changes-get",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "result",
+        "items",
+        "properties",
+        "fields"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "result",
+        "items",
+        "properties",
+        "attributes"
+      ]
+    }
+  ]
+}

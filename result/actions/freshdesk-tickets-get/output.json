@@ -1,0 +1,37 @@
+{
+  "name": "freshdesk-tickets-get",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "tickets",
+        "items",
+        "properties",
+        "custom_fields"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "tickets",
+        "items",
+        "properties",
+        "tags"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "tickets",
+        "items",
+        "properties",
+        "attachments"
+      ]
+    }
+  ]
+}

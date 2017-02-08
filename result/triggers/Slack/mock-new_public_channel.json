@@ -1,0 +1,22 @@
+{
+  "name": "Slack",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "'new_channel' event is missing in output data",
+      "path": []
+    },
+    {
+      "message": "'new_message' event is missing in output data",
+      "path": []
+    },
+    {
+      "message": "schema must have a type.",
+      "path": [
+        "members",
+        0
+      ]
+    }
+  ]
+}

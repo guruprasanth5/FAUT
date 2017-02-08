@@ -1,0 +1,25 @@
+{
+  "name": "zendesk-userdetails-get",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "user",
+        "properties",
+        "tags"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "user",
+        "properties",
+        "user_fields"
+      ]
+    }
+  ]
+}

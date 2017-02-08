@@ -1,0 +1,28 @@
+{
+  "name": "Google Contact",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "primary is missing.",
+      "path": [
+        "gd$email",
+        1
+      ]
+    },
+    {
+      "message": "primary is missing.",
+      "path": [
+        "gd$email",
+        2
+      ]
+    },
+    {
+      "message": "rel is missing.",
+      "path": [
+        "gd$email",
+        2
+      ]
+    }
+  ]
+}

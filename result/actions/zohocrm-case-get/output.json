@@ -1,0 +1,62 @@
+{
+  "name": "zohocrm-case-get",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "response"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "response",
+        "properties",
+        "result"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "response",
+        "properties",
+        "result",
+        "properties",
+        "Cases"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "response",
+        "properties",
+        "result",
+        "properties",
+        "Cases",
+        "properties",
+        "row"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "response",
+        "properties",
+        "result",
+        "properties",
+        "Cases",
+        "properties",
+        "row",
+        "properties",
+        "FL"
+      ]
+    }
+  ]
+}

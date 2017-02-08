@@ -1,0 +1,113 @@
+{
+    "name": "",
+    "version": "",
+    "schema": {
+        "type": "object",
+        "title": "Select Trigger",
+        "properties": {
+            "auth": {
+                "type": "string",
+                "title": "Authorize Evernote",
+                "minLength": 1,
+                "oauth": "evernote",
+                "propertyOrder": 1
+            },
+            "customFilters": {
+                "type": "array",
+                "title": "Custom Filters",
+                "propertyOrder": 3,
+                "items": {
+                    "type": "object",
+                    "title": "filter",
+                    "properties": {
+                        "input": {
+                            "type": "string",
+                            "title": "Input",
+                            "minLength": 1
+                        },
+                        "operator": {
+                            "type": "string",
+                            "title": "Condition",
+                            "enum": [
+                                "Equals",
+                                "Equals(Number)",
+                                "GreaterThan",
+                                "LessThan",
+                                "Contains",
+                                "DoesNotContains",
+                                "ObjectHasKey",
+                                "matches",
+                                "isNull",
+                                "isEmpty",
+                                "isNumber",
+                                "isObject",
+                                "isArray",
+                                "isBoolean",
+                                "isDate",
+                                "isUndefined"
+                            ]
+                        },
+                        "expected": {
+                            "type": "string",
+                            "title": "Expected",
+                            "minLength": 1
+                        }
+                    }
+                }
+            }
+        },
+        "oneOf": [
+            {
+                "type": "object",
+                "title": "New Note",
+                "description": "Triggers when a new note is created",
+                "properties": {
+                    "event": {
+                        "type": "string",
+                        "enum": [
+                            "new_note"
+                        ],
+                        "options": {
+                            "hidden": true
+                        },
+                        "propertyOrder": 2
+                    }
+                }
+            },
+            {
+                "type": "object",
+                "title": "New Notebook",
+                "description": "Triggers when a new notebook is created",
+                "properties": {
+                    "event": {
+                        "type": "string",
+                        "enum": [
+                            "new_notebook"
+                        ],
+                        "options": {
+                            "hidden": true
+                        },
+                        "propertyOrder": 2
+                    }
+                }
+            },
+            {
+                "type": "object",
+                "title": "New Reminder",
+                "description": "Triggers when a new reminder is created",
+                "properties": {
+                    "event": {
+                        "type": "string",
+                        "enum": [
+                            "new_reminder"
+                        ],
+                        "options": {
+                            "hidden": true
+                        },
+                        "propertyOrder": 2
+                    }
+                }
+            }
+        ]
+    }
+}

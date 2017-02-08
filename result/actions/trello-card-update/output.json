@@ -1,0 +1,60 @@
+{
+  "name": "trello-card-update",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "badges"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "checkItemStates"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "descData"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "idChecklists"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "idLabels"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "idMembers"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "labels"
+      ]
+    }
+  ]
+}

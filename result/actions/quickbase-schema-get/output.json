@@ -1,0 +1,34 @@
+{
+  "name": "quickbase-schema-get",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "qdbapi"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "qdbapi",
+        "properties",
+        "table",
+        "items",
+        "properties",
+        "chdbids",
+        "items",
+        "properties",
+        "chdbid",
+        "items",
+        "properties",
+        "$",
+        "properties",
+        "name"
+      ]
+    }
+  ]
+}

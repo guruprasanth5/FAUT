@@ -1,0 +1,1120 @@
+{
+  "createdAt": "Fri Feb 03 2017 17:45:04 GMT+0530 (IST)",
+  "result": [
+    {
+      "name": "activecampaign",
+      "events": [
+        {
+          "event_name": "subscribe",
+          "title": "Contact Subscribe List"
+        },
+        {
+          "event_name": "unsubscribe",
+          "title": "Contact Unsubscribe List"
+        },
+        {
+          "event_name": "update",
+          "title": "Contact Updated"
+        },
+        {
+          "event_name": "open",
+          "title": "Campaign Opened"
+        },
+        {
+          "event_name": "sent",
+          "title": "Campaign Starts Sending"
+        },
+        {
+          "event_name": "click",
+          "title": "Link Clicked"
+        }
+      ]
+    },
+    {
+      "name": "asana",
+      "events": [
+        {
+          "event_name": "task_added",
+          "title": "New Task"
+        },
+        {
+          "event_name": "task_updated",
+          "title": "Update Task"
+        },
+        {
+          "event_name": "story_added",
+          "title": "New Story"
+        }
+      ]
+    },
+    {
+      "name": "basecamp",
+      "events": [
+        {
+          "event_name": "new_project",
+          "title": "New Project"
+        },
+        {
+          "event_name": "new_people",
+          "title": "New People"
+        },
+        {
+          "event_name": "new_topic",
+          "title": "New Topic"
+        },
+        {
+          "event_name": "new_todo",
+          "title": "New Todo Item"
+        },
+        {
+          "event_name": "new_document",
+          "title": "New Document"
+        },
+        {
+          "event_name": "new_upload",
+          "title": "New Upload"
+        }
+      ]
+    },
+    {
+      "name": "bitbucket",
+      "events": [
+        {
+          "event_name": "push",
+          "title": "Push"
+        },
+        {
+          "event_name": "issueCreated",
+          "title": "Issue Created"
+        }
+      ]
+    },
+    {
+      "name": "box",
+      "events": [
+        {
+          "event_name": "folder_created",
+          "title": "New Folder"
+        },
+        {
+          "event_name": "file_downloaded",
+          "title": "File Downloaded"
+        },
+        {
+          "event_name": "file_uploaded",
+          "title": "File Uploaded"
+        },
+        {
+          "event_name": "folder_downloaded",
+          "title": "Folder Downloaded"
+        },
+        {
+          "event_name": "comment_created",
+          "title": "New Comment"
+        }
+      ]
+    },
+    {
+      "name": "contentstack",
+      "events": [
+        {
+          "event_name": "publish",
+          "title": "Publish Entry"
+        },
+        {
+          "event_name": "unpublish",
+          "title": "Unpublish Entry"
+        },
+        {
+          "event_name": "create",
+          "title": "New Entry"
+        },
+        {
+          "event_name": "update",
+          "title": "Update Entry"
+        },
+        {
+          "event_name": "delete",
+          "title": "Delete Entry"
+        }
+      ]
+    },
+    {
+      "name": "spark",
+      "events": [
+        {
+          "event_name": "new_message",
+          "title": "New Message"
+        },
+        {
+          "event_name": "new_direct_message",
+          "title": "New Direct Message"
+        },
+        {
+          "event_name": "delete_message",
+          "title": "Delete Message"
+        },
+        {
+          "event_name": "new_membership",
+          "title": "New Membership"
+        },
+        {
+          "event_name": "update_membership",
+          "title": "Update Membership"
+        },
+        {
+          "event_name": "delete_membership",
+          "title": "Delete Membership"
+        },
+        {
+          "event_name": "new_room",
+          "title": "New Room"
+        }
+      ]
+    },
+    {
+      "name": "spark_bot",
+      "events": [
+        {
+          "event_name": "new_message",
+          "title": "New Message"
+        },
+        {
+          "event_name": "new_direct_message",
+          "title": "New Direct Message"
+        },
+        {
+          "event_name": "delete_message",
+          "title": "Delete Message"
+        },
+        {
+          "event_name": "new_membership",
+          "title": "New Membership"
+        },
+        {
+          "event_name": "update_membership",
+          "title": "Update Membership"
+        },
+        {
+          "event_name": "delete_membership",
+          "title": "Delete Membership"
+        },
+        {
+          "event_name": "new_room",
+          "title": "New Room"
+        }
+      ]
+    },
+    {
+      "name": "clock",
+      "events": [
+        {
+          "event_name": "once",
+          "title": "Once"
+        },
+        {
+          "event_name": "repeat",
+          "title": "Repeat"
+        },
+        {
+          "event_name": "repeat-from",
+          "title": "Repeat From"
+        },
+        {
+          "event_name": "repeat-from-to",
+          "title": "Repeat From To"
+        }
+      ]
+    },
+    {
+      "name": "dropbox",
+      "events": [
+        {
+          "event_name": "newFile",
+          "title": "New File in Folder"
+        },
+        {
+          "event_name": "fileUpdated",
+          "title": "File Updated in Folder"
+        },
+        {
+          "event_name": "newFolder",
+          "title": "New Folder"
+        }
+      ]
+    },
+    {
+      "name": "egnyte",
+      "events": [
+        {
+          "event_name": "new_file",
+          "title": "New File"
+        },
+        {
+          "event_name": "new_folder",
+          "title": "New Folder"
+        }
+      ]
+    },
+    {
+      "name": "eventbrite",
+      "events": [
+        {
+          "event_name": "event_published",
+          "title": "Event Published"
+        },
+        {
+          "event_name": "event_unpublished",
+          "title": "Event Unpublished"
+        },
+        {
+          "event_name": "order_placed",
+          "title": "Order Placed"
+        },
+        {
+          "event_name": "order_updated",
+          "title": "Order Updated"
+        },
+        {
+          "event_name": "order_refunded",
+          "title": "Order Refunded"
+        }
+      ]
+    },
+    {
+      "name": "evernote",
+      "events": [
+        {
+          "event_name": "new_note",
+          "title": "New Note"
+        },
+        {
+          "event_name": "new_notebook",
+          "title": "New Notebook"
+        },
+        {
+          "event_name": "new_reminder",
+          "title": "New Reminder"
+        }
+      ]
+    },
+    {
+      "name": "formstack",
+      "events": [
+        {
+          "event_name": "new_submission",
+          "title": "New Submission"
+        }
+      ]
+    },
+    {
+      "name": "freshdesk",
+      "events": [
+        {
+          "event_name": "new_ticket",
+          "title": "New Ticket"
+        },
+        {
+          "event_name": "updated_ticket",
+          "title": "Update Ticket"
+        }
+      ]
+    },
+    {
+      "name": "github",
+      "events": [
+        {
+          "event_name": "push",
+          "title": "Push"
+        }
+      ]
+    },
+    {
+      "name": "gmail",
+      "events": [
+        {
+          "event_name": "new_mail",
+          "title": "New Email"
+        },
+        {
+          "event_name": "new_attachment",
+          "title": "New Attachment"
+        }
+      ]
+    },
+    {
+      "name": "google_calendar",
+      "events": [
+        {
+          "event_name": "new_event",
+          "title": "New Event"
+        },
+        {
+          "event_name": "new_search_event",
+          "title": "New Search Event"
+        },
+        {
+          "event_name": "update_event",
+          "title": "Update Event"
+        },
+        {
+          "event_name": "event_start",
+          "title": "Event Start"
+        }
+      ]
+    },
+    {
+      "name": "google_contact",
+      "events": [
+        {
+          "event_name": "new_or_update_contact",
+          "title": "New or Update Contact"
+        }
+      ]
+    },
+    {
+      "name": "google_drive",
+      "events": [
+        {
+          "event_name": "new_file",
+          "title": "New File"
+        },
+        {
+          "event_name": "update_file",
+          "title": "Update File"
+        },
+        {
+          "event_name": "new_file_in_folder",
+          "title": "New File in Folder"
+        }
+      ]
+    },
+    {
+      "name": "google_form",
+      "events": [
+        {
+          "event_name": "new_response",
+          "title": "New Response in Spreadsheet"
+        }
+      ]
+    },
+    {
+      "name": "google_sheet",
+      "events": [
+        {
+          "event_name": "new_spreadsheet_row",
+          "title": "New Spreadsheet Row"
+        }
+      ]
+    },
+    {
+      "name": "google_tasks",
+      "events": [
+        {
+          "event_name": "new_tasklist",
+          "title": "New Tasklist"
+        },
+        {
+          "event_name": "new_task",
+          "title": "New Task"
+        }
+      ]
+    },
+    {
+      "name": "hubspot",
+      "events": [
+        {
+          "event_name": "blog_post_created",
+          "title": "COS Blog Post Created"
+        },
+        {
+          "event_name": "blog_post_published",
+          "title": "COS Blog Post Published"
+        },
+        {
+          "event_name": "new_deal",
+          "title": "New Deal"
+        },
+        {
+          "event_name": "modified_deal",
+          "title": "Update Deal"
+        },
+        {
+          "event_name": "create_contact",
+          "title": "New Contact"
+        },
+        {
+          "event_name": "update_contact",
+          "title": "Update Contact"
+        }
+      ]
+    },
+    {
+      "name": "intercom",
+      "events": [
+        {
+          "event_name": "conversation.user.created",
+          "title": "New Message from a User"
+        },
+        {
+          "event_name": "contact.added_email",
+          "title": "Contact Added Email"
+        },
+        {
+          "event_name": "conversation.user.replied",
+          "title": "Reply from a User"
+        },
+        {
+          "event_name": "conversation.admin.replied",
+          "title": "Reply from a Teammate"
+        },
+        {
+          "event_name": "conversation.admin.noted",
+          "title": "Note Added to Conversation"
+        },
+        {
+          "event_name": "conversation.admin.assigned",
+          "title": "Conversation Assigned to Teammate"
+        },
+        {
+          "event_name": "user.created",
+          "title": "User Created"
+        },
+        {
+          "event_name": "user.email.updated",
+          "title": "User Email Updated"
+        },
+        {
+          "event_name": "user.unsubscribed",
+          "title": "User Unsubscribed From Email"
+        },
+        {
+          "event_name": "user.tag.created",
+          "title": "User Tagged"
+        },
+        {
+          "event_name": "user.tag.deleted",
+          "title": "User Untagged"
+        },
+        {
+          "event_name": "company.created",
+          "title": "Company Created"
+        }
+      ]
+    },
+    {
+      "name": "jira",
+      "events": [
+        {
+          "event_name": "issue_create",
+          "title": "New Issue"
+        },
+        {
+          "event_name": "project_created",
+          "title": "New Project"
+        },
+        {
+          "event_name": "user_created",
+          "title": "New User"
+        },
+        {
+          "event_name": "sprint_created",
+          "title": "New Sprint"
+        }
+      ]
+    },
+    {
+      "name": "jive",
+      "events": [
+        {
+          "event_name": "user_acc_created",
+          "title": "User Account Created"
+        },
+        {
+          "event_name": "user_acc_disabled",
+          "title": "User Account Deactivated"
+        },
+        {
+          "event_name": "user_acc_enabled",
+          "title": "User Account Activated"
+        },
+        {
+          "event_name": "user_profile_modified",
+          "title": "User Profile Modified"
+        },
+        {
+          "event_name": "user_type_modified",
+          "title": "User Type Modified"
+        },
+        {
+          "event_name": "stream_config_created",
+          "title": "Stream Config Created"
+        },
+        {
+          "event_name": "stream_config_deleted",
+          "title": "Stream Config Deleted"
+        },
+        {
+          "event_name": "stream_association_added",
+          "title": "Stream Association Added"
+        }
+      ]
+    },
+    {
+      "name": "mailchimp",
+      "events": [
+        {
+          "event_name": "subscribe",
+          "title": "Subscribe List"
+        },
+        {
+          "event_name": "unsubscribe",
+          "title": "Unsubscribe List"
+        }
+      ]
+    },
+    {
+      "name": "marketo",
+      "events": [
+        {
+          "event_name": "new_lead",
+          "title": "New Lead"
+        },
+        {
+          "event_name": "new_lead_in_list",
+          "title": "New Lead in List"
+        },
+        {
+          "event_name": "update_lead",
+          "title": "Update Lead"
+        },
+        {
+          "event_name": "update_lead_in_list",
+          "title": "Update Lead in List"
+        },
+        {
+          "event_name": "new_list",
+          "title": "New List"
+        },
+        {
+          "event_name": "new_campaign",
+          "title": "New Campaign"
+        }
+      ]
+    },
+    {
+      "name": "microsoft_dynamic_crm",
+      "events": [
+        {
+          "event_name": "new_account",
+          "title": "New Account"
+        },
+        {
+          "event_name": "new_contact",
+          "title": "New Contact"
+        },
+        {
+          "event_name": "new_appointment",
+          "title": "New Appointment"
+        },
+        {
+          "event_name": "new_opportunity",
+          "title": "New Opportunity"
+        },
+        {
+          "event_name": "new_lead",
+          "title": "New Lead"
+        }
+      ]
+    },
+    {
+      "name": "nest",
+      "events": [
+        {
+          "event_name": "state_change",
+          "title": "State Change"
+        }
+      ]
+    },
+    {
+      "name": "microsoft_365",
+      "events": [
+        {
+          "event_name": "new_event",
+          "title": "New Event"
+        },
+        {
+          "event_name": "new_email",
+          "title": "New Email"
+        },
+        {
+          "event_name": "new_inbox_email",
+          "title": "New Email in Inbox"
+        },
+        {
+          "event_name": "new_contact",
+          "title": "New Contact"
+        },
+        {
+          "event_name": "new_calendar",
+          "title": "New Calendar"
+        },
+        {
+          "event_name": "new_folder",
+          "title": "New Folder"
+        }
+      ]
+    },
+    {
+      "name": "onenote",
+      "events": [
+        {
+          "event_name": "new_notebook",
+          "title": "New Notebook"
+        },
+        {
+          "event_name": "new_section_group",
+          "title": "New Section Group"
+        },
+        {
+          "event_name": "new_section",
+          "title": "New Section"
+        }
+      ]
+    },
+    {
+      "name": "pagerduty",
+      "events": [
+        {
+          "event_name": "incident.trigger",
+          "title": "Incident Triggerred"
+        },
+        {
+          "event_name": "incident.acknowledge",
+          "title": "Incident Acknowledge"
+        },
+        {
+          "event_name": "incident.unacknowledge",
+          "title": "Incident Unacknowledge"
+        },
+        {
+          "event_name": "incident.resolve",
+          "title": "Incident Resolve"
+        },
+        {
+          "event_name": "incident.assign",
+          "title": "Incident Assign"
+        },
+        {
+          "event_name": "incident.escalate",
+          "title": "Incident Escalate"
+        },
+        {
+          "event_name": "incident.delegate",
+          "title": "Incident Delegate"
+        }
+      ]
+    },
+    {
+      "name": "pipedrive",
+      "events": [
+        {
+          "event_name": "deal_added",
+          "title": "New Deal"
+        },
+        {
+          "event_name": "deal_updated",
+          "title": "Update Deal"
+        },
+        {
+          "event_name": "person_added",
+          "title": "New Person"
+        },
+        {
+          "event_name": "person_updated",
+          "title": "Update Person"
+        },
+        {
+          "event_name": "organization_added",
+          "title": "New Organization"
+        },
+        {
+          "event_name": "new_pipeline",
+          "title": "New Pipeline"
+        },
+        {
+          "event_name": "new_note",
+          "title": "New Note"
+        },
+        {
+          "event_name": "new_note_in_deal",
+          "title": "New Note in Deal"
+        }
+      ]
+    },
+    {
+      "name": "quickbooks",
+      "events": [
+        {
+          "event_name": "create_customer",
+          "title": "New Customer"
+        },
+        {
+          "event_name": "purchase_order",
+          "title": "New Purchase Order"
+        },
+        {
+          "event_name": "create_invoice",
+          "title": "New Invoice"
+        },
+        {
+          "event_name": "create_vendor",
+          "title": "New Supplier/Vendor"
+        },
+        {
+          "event_name": "create_estimate",
+          "title": "New Estimate"
+        },
+        {
+          "event_name": "create_payment",
+          "title": "New Payment"
+        },
+        {
+          "event_name": "create_receipt",
+          "title": "New Sales Receipt"
+        }
+      ]
+    },
+    {
+      "name": "quickbase",
+      "events": [
+        {
+          "event_name": "new_record",
+          "title": "New Record"
+        }
+      ]
+    },
+    {
+      "name": "quip",
+      "events": [
+        {
+          "event_name": "message_in_thread",
+          "title": "Message in Thread"
+        }
+      ]
+    },
+    {
+      "name": "salesforce",
+      "events": [
+        {
+          "event_name": "new_contact",
+          "title": "New Contact"
+        },
+        {
+          "event_name": "new_account",
+          "title": "New Account"
+        },
+        {
+          "event_name": "new_lead",
+          "title": "New Lead"
+        },
+        {
+          "event_name": "new_opportunity",
+          "title": "New Opportunity"
+        },
+        {
+          "event_name": "new_case",
+          "title": "New Case"
+        },
+        {
+          "event_name": "new_task",
+          "title": "New Task"
+        },
+        {
+          "event_name": "new_event",
+          "title": "New Event"
+        },
+        {
+          "event_name": "new_c_record",
+          "title": "New Record in Custom Object"
+        }
+      ]
+    },
+    {
+      "name": "salesforce_chatter",
+      "events": [
+        {
+          "event_name": "new_topic",
+          "title": "New Topic"
+        },
+        {
+          "event_name": "new_post_in_feed",
+          "title": "New Post in Feed"
+        }
+      ]
+    },
+    {
+      "name": "salesforceiq",
+      "events": [
+        {
+          "event_name": "new_list_item",
+          "title": "New List Item (Relationship)"
+        }
+      ]
+    },
+    {
+      "name": "shopify",
+      "events": [
+        {
+          "event_name": "new_product",
+          "title": "New Product"
+        },
+        {
+          "event_name": "new_customer",
+          "title": "New Customer"
+        },
+        {
+          "event_name": "new_order",
+          "title": "New Order"
+        },
+        {
+          "event_name": "new_updated_order",
+          "title": "Order Updated"
+        },
+        {
+          "event_name": "new_paid_order",
+          "title": "Order Paid"
+        },
+        {
+          "event_name": "new_cancelled_order",
+          "title": "Order Cancelled"
+        }
+      ]
+    },
+    {
+      "name": "slack",
+      "events": [
+        {
+          "event_name": "new_public_channel",
+          "title": "New Public Channel"
+        },
+        {
+          "event_name": "new_private_channel",
+          "title": "New Private Channel"
+        },
+        {
+          "event_name": "new_public_message",
+          "title": "New Message in Public Channel"
+        },
+        {
+          "event_name": "new_private_message",
+          "title": "New Message in Private Channel"
+        }
+      ]
+    },
+    {
+      "name": "smartsheet",
+      "events": [
+        {
+          "event_name": "new_row",
+          "title": "New Row"
+        },
+        {
+          "event_name": "update_row",
+          "title": "Update Row"
+        },
+        {
+          "event_name": "new_comment",
+          "title": "New Comment"
+        },
+        {
+          "event_name": "new_attachment",
+          "title": "New Attachment"
+        }
+      ]
+    },
+    {
+      "name": "stripe",
+      "events": [
+        {
+          "event_name": "new_charge",
+          "title": "New Charge"
+        },
+        {
+          "event_name": "new_coupon",
+          "title": "New Coupon"
+        },
+        {
+          "event_name": "new_customer",
+          "title": "New Customer"
+        }
+      ]
+    },
+    {
+      "name": "trello",
+      "events": [
+        {
+          "event_name": "createBoard",
+          "title": "New Board"
+        },
+        {
+          "event_name": "createList",
+          "title": "New List"
+        },
+        {
+          "event_name": "createCard",
+          "title": "New Card"
+        },
+        {
+          "event_name": "updateBoard",
+          "title": "Update Board"
+        },
+        {
+          "event_name": "updateList",
+          "title": "Update List"
+        },
+        {
+          "event_name": "updateCard",
+          "title": "Update Card"
+        },
+        {
+          "event_name": "deleteCard",
+          "title": "Delete card"
+        }
+      ]
+    },
+    {
+      "name": "twilio",
+      "events": [
+        {
+          "event_name": "new_sms",
+          "title": "New Message Delivered"
+        },
+        {
+          "event_name": "new_call",
+          "title": "New Call Completed"
+        }
+      ]
+    },
+    {
+      "name": "twitter",
+      "events": [
+        {
+          "event_name": "search_mention",
+          "title": "Search Mention"
+        },
+        {
+          "event_name": "user_tweet",
+          "title": "User Tweet"
+        },
+        {
+          "event_name": "my_tweet",
+          "title": "My Tweet"
+        },
+        {
+          "event_name": "new_follower",
+          "title": "New Follower"
+        }
+      ]
+    },
+    {
+      "name": "typeform",
+      "events": [
+        {
+          "event_name": "new_entry",
+          "title": "New Entry"
+        }
+      ]
+    },
+    {
+      "name": "wufoo",
+      "events": [
+        {
+          "event_name": "New Entry",
+          "title": "New Entry"
+        }
+      ]
+    },
+    {
+      "name": "wunderlist",
+      "events": [
+        {
+          "event_name": "create",
+          "title": "New Item"
+        },
+        {
+          "event_name": "update",
+          "title": "Updated Item"
+        }
+      ]
+    },
+    {
+      "name": "youtube",
+      "events": [
+        {
+          "event_name": "new_video_in_channel",
+          "title": "New Video Published in Channel"
+        },
+        {
+          "event_name": "new_video_by_search",
+          "title": "New Video Containing Keyword"
+        }
+      ]
+    },
+    {
+      "name": "zendesk",
+      "events": [
+        {
+          "event_name": "new_ticket",
+          "title": "New Ticket"
+        },
+        {
+          "event_name": "update_ticket",
+          "title": "Update Ticket"
+        },
+        {
+          "event_name": "new_user",
+          "title": "New User"
+        },
+        {
+          "event_name": "new_organization",
+          "title": "New Organization"
+        }
+      ]
+    },
+    {
+      "name": "zohocrm",
+      "events": [
+        {
+          "event_name": "new_lead",
+          "title": "New Lead"
+        },
+        {
+          "event_name": "new_account",
+          "title": "New Account"
+        },
+        {
+          "event_name": "new_contact",
+          "title": "New Contact"
+        },
+        {
+          "event_name": "new_record",
+          "title": "New Record"
+        }
+      ]
+    },
+    {
+      "name": "zoho_projects",
+      "events": [
+        {
+          "event_name": "new_bug",
+          "title": "New Bug"
+        },
+        {
+          "event_name": "status_change",
+          "title": "Bug Status Changed"
+        }
+      ]
+    }
+  ]
+}

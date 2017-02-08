@@ -1,0 +1,260 @@
+{
+  "name": "Box-file_uploaded",
+  "version": "v2",
+  "createdAt": "Thu Feb 02 2017 13:14:43 GMT+0530 (IST)",
+  "result": [
+    {
+      "value": "108840647268",
+      "displayTitle": "File ID",
+      "title": "source_id",
+      "type": "string",
+      "variable": "{{$guru.source_id}}"
+    },
+    {
+      "value": "file",
+      "displayTitle": "Source Type",
+      "title": "source_type",
+      "type": "string",
+      "variable": "{{$guru.source_type}}"
+    },
+    {
+      "value": "Poject v1",
+      "displayTitle": "File Name",
+      "title": "source_name",
+      "type": "string",
+      "variable": "{{$guru.source_name}}"
+    },
+    {
+      "value": "FILE.UPLOADED",
+      "displayTitle": "Trigger",
+      "title": "trigger",
+      "type": "string",
+      "variable": "{{$guru.trigger}}"
+    },
+    {
+      "value": "2016-12-06T07:26:57.000Z",
+      "displayTitle": "Created At",
+      "title": "created_at",
+      "type": "string",
+      "variable": "{{$guru.created_at}}"
+    },
+    {
+      "value": "117062636644",
+      "displayTitle": "File Version ID",
+      "title": "file_version_id",
+      "type": "string",
+      "variable": "{{$guru.file_version_id}}"
+    },
+    {
+      "displayTitle": "Sequence ID",
+      "title": "source_sequence_id",
+      "type": "string",
+      "variable": "{{$guru.source_sequence_id}}"
+    },
+    {
+      "displayTitle": "E Tag",
+      "title": "source_etag",
+      "type": "string",
+      "variable": "{{$guru.source_etag}}"
+    },
+    {
+      "value": 34821,
+      "displayTitle": "File Size",
+      "title": "source_size",
+      "type": "number",
+      "variable": "{{$guru.source_size}}"
+    },
+    {
+      "value": 2,
+      "displayTitle": "File Root Level Count",
+      "title": "source_root_level_count",
+      "type": "number",
+      "variable": "{{$guru.source_root_level_count}}"
+    },
+    {
+      "value": "All Files/Project_v1/Poject v1",
+      "displayTitle": "File Path",
+      "title": "folder_path",
+      "type": "string",
+      "variable": "{{$guru.folder_path}}"
+    },
+    {
+      "value": [
+        {
+          "type": "folder",
+          "id": "0",
+          "sequence_id": "0",
+          "etag": "0",
+          "name": "All Files"
+        },
+        {
+          "type": "folder",
+          "id": "12012408511",
+          "sequence_id": "0",
+          "etag": "0",
+          "name": "Project_v1"
+        }
+      ],
+      "displayTitle": "Root Entries",
+      "title": "root_entries",
+      "type": "array",
+      "variable": "{{$guru.root_entries}}"
+    },
+    {
+      "value": "folder",
+      "displayTitle": "Root Entry Type",
+      "title": "type",
+      "type": "string",
+      "variable": "{{$guru.root_entries[0].type}}"
+    },
+    {
+      "value": "0",
+      "displayTitle": "Root Entry ID",
+      "title": "id",
+      "type": "string",
+      "variable": "{{$guru.root_entries[0].id}}"
+    },
+    {
+      "value": "0",
+      "displayTitle": "Root Entry Sequence ID",
+      "title": "sequence_id",
+      "type": "string",
+      "variable": "{{$guru.root_entries[0].sequence_id}}"
+    },
+    {
+      "value": "All Files",
+      "displayTitle": "Root Entry Name",
+      "title": "name",
+      "type": "string",
+      "variable": "{{$guru.root_entries[0].name}}"
+    },
+    {
+      "value": "2016-12-06T07:26:57.000Z",
+      "displayTitle": "File Created At",
+      "title": "source_created_at",
+      "type": "string",
+      "variable": "{{$guru.source_created_at}}"
+    },
+    {
+      "value": "2016-12-06T07:26:57.000Z",
+      "displayTitle": "File Modified At",
+      "title": "source_modified_at",
+      "type": "string",
+      "variable": "{{$guru.source_modified_at}}"
+    },
+    {
+      "value": "2016-09-29T11:31:29.000Z",
+      "displayTitle": "File Content Created At",
+      "title": "source_content_created_at",
+      "type": "string",
+      "variable": "{{$guru.source_content_created_at}}"
+    },
+    {
+      "value": "2016-09-29T11:31:29.000Z",
+      "displayTitle": "File Content Modified At",
+      "title": "source_content_modified_at",
+      "type": "string",
+      "variable": "{{$guru.source_content_modified_at}}"
+    },
+    {
+      "displayTitle": "Modifier ID",
+      "title": "modifier_id",
+      "type": "string",
+      "variable": "{{$guru.modifier_id}}"
+    },
+    {
+      "displayTitle": "Modifier Type",
+      "title": "modifier_type",
+      "type": "string",
+      "variable": "{{$guru.modifier_type}}"
+    },
+    {
+      "displayTitle": "Modifier Name",
+      "title": "modifier_name",
+      "type": "string",
+      "variable": "{{$guru.modifier_name}}"
+    },
+    {
+      "displayTitle": "Modifier Email",
+      "title": "modifier_login",
+      "type": "string",
+      "variable": "{{$guru.modifier_login}}"
+    },
+    {
+      "displayTitle": "Owner ID",
+      "title": "owner_id",
+      "type": "string",
+      "variable": "{{$guru.owner_id}}"
+    },
+    {
+      "displayTitle": "Owner Type",
+      "title": "owner_type",
+      "type": "string",
+      "variable": "{{$guru.owner_type}}"
+    },
+    {
+      "displayTitle": "Owner Name",
+      "title": "owner_name",
+      "type": "string",
+      "variable": "{{$guru.owner_name}}"
+    },
+    {
+      "displayTitle": "Owner Email",
+      "title": "owner_login",
+      "type": "string",
+      "variable": "{{$guru.owner_login}}"
+    },
+    {
+      "displayTitle": "Parent ID",
+      "title": "parent_id",
+      "type": "string",
+      "variable": "{{$guru.parent_id}}"
+    },
+    {
+      "displayTitle": "Parent Type",
+      "title": "parent_type",
+      "type": "string",
+      "variable": "{{$guru.parent_type}}"
+    },
+    {
+      "displayTitle": "Parent Name",
+      "title": "parent_name",
+      "type": "string",
+      "variable": "{{$guru.parent_name}}"
+    },
+    {
+      "value": "active",
+      "displayTitle": "Item Status",
+      "title": "source_item_status",
+      "type": "string",
+      "variable": "{{$guru.source_item_status}}"
+    },
+    {
+      "value": "369855927",
+      "displayTitle": "Creator ID",
+      "title": "creator_id",
+      "type": "string",
+      "variable": "{{$guru.creator_id}}"
+    },
+    {
+      "value": "user",
+      "displayTitle": "Creator Type",
+      "title": "creator_type",
+      "type": "string",
+      "variable": "{{$guru.creator_type}}"
+    },
+    {
+      "value": "John Smith",
+      "displayTitle": "Creator Name",
+      "title": "creator_name",
+      "type": "string",
+      "variable": "{{$guru.creator_name}}"
+    },
+    {
+      "displayTitle": "Creator Email",
+      "title": "creator_login",
+      "type": "string",
+      "variable": "{{$guru.creator_login}}"
+    }
+  ]
+}

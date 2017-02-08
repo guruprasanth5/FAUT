@@ -1,0 +1,37 @@
+{
+  "name": "JIRA",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "must be a string.",
+      "path": [
+        "change_log_items",
+        0,
+        "from"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "change_log_items",
+        0,
+        "fromString"
+      ]
+    },
+    {
+      "message": "releaseDate is missing.",
+      "path": [
+        "versions",
+        1
+      ]
+    },
+    {
+      "message": "url is missing.",
+      "path": [
+        "attachment",
+        0
+      ]
+    }
+  ]
+}

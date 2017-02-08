@@ -1,0 +1,181 @@
+{
+  "name": "Marketo",
+  "version": "v5",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "must be a string.",
+      "path": [
+        "twitterReferredEnrollments"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "sfdcType"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "industry"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "inferredCountry"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "originalSearchPhrase"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "mainPhone"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "EmailBouncedDate"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "originalSourceInfo"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "billingState"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "anonymousIP"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "inferredStateRegion"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "billingPostalCode"
+      ]
+    },
+    {
+      "message": "numberOfEmployees must be a number.",
+      "path": [
+        "numberOfEmployees"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "cookies"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "site"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "mktoCompanyNotes"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "mktoDoNotCallCause"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "sfdcContactId"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "originalReferrer"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "registrationSourceInfo"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "originalSearchEngine"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "EmailBouncedReason"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "inferredMetropolitanArea"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "billingCity"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "inferredPostalCode"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "billingCountry"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "website"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "inferredCity"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "inferredCompany"
+      ]
+    }
+  ]
+}

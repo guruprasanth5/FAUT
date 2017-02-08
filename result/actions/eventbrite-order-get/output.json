@@ -1,0 +1,54 @@
+{
+  "name": "eventbrite-order-get",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "costs",
+        "properties",
+        "eventbrite_fee"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "costs",
+        "properties",
+        "gross"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "costs",
+        "properties",
+        "payment_fee"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "costs",
+        "properties",
+        "tax"
+      ]
+    },
+    {
+      "message": "time_remaining in properties should have a matching type.",
+      "path": [
+        "properties",
+        "time_remaining"
+      ]
+    }
+  ]
+}

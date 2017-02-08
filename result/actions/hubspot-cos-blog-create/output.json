@@ -1,0 +1,74 @@
+{
+  "name": "hubspot-cos-blog-create",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "attached_stylesheets"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "blog_author"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "css"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "flex_areas"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "keywords"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "personas"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "topic_ids"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "widget_containers"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "widgets"
+      ]
+    }
+  ]
+}

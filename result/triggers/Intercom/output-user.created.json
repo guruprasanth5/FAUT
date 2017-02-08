@@ -1,0 +1,75 @@
+{
+  "name": "Intercom-user.created",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "item",
+        "properties",
+        "avatar",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "item",
+        "properties",
+        "app_id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "item",
+        "properties",
+        "companies",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "item",
+        "properties",
+        "social_profiles",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "item",
+        "properties",
+        "tags",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "item",
+        "properties",
+        "segments",
+        "properties",
+        "type"
+      ]
+    }
+  ]
+}

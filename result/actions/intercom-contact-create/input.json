@@ -1,0 +1,23 @@
+{
+  "name": "intercom-contact-create",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have title key.",
+      "path": [
+        "properties",
+        "custom_attributes",
+        "items"
+      ]
+    },
+    {
+      "message": "type object should have title key.",
+      "path": [
+        "properties",
+        "companies",
+        "items"
+      ]
+    }
+  ]
+}

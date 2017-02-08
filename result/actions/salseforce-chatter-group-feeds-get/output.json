@@ -1,0 +1,229 @@
+{
+  "name": "salseforce-chatter-group-feeds-get",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "currentPageUrl"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "actor"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "actor",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "actor",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "actor",
+        "properties",
+        "url"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "body"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "body",
+        "properties",
+        "text"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "clientInfo"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "parent"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "parent",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "parent",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "parent",
+        "properties",
+        "url"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "createdDate"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "canShare"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "event"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "feedElementType"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "url"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements",
+        "items",
+        "properties",
+        "visibility"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "elements"
+      ]
+    }
+  ]
+}

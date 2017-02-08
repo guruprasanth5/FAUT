@@ -1,0 +1,68 @@
+{
+  "name": "Box-comment_created",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "root_entries",
+        "items",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "root_entries",
+        "items",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "root_entries",
+        "items",
+        "properties",
+        "sequence_id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "root_entries",
+        "items",
+        "properties",
+        "etag"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "root_entries",
+        "items",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "root_entries"
+      ]
+    }
+  ]
+}

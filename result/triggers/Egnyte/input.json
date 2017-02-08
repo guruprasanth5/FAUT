@@ -1,0 +1,17 @@
+{
+  "name": "Egnyte",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "propertyOrder in properties should be an object.",
+      "path": [
+        "properties",
+        "customFilters",
+        "items",
+        "properties",
+        "propertyOrder"
+      ]
+    }
+  ]
+}

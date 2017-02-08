@@ -1,0 +1,104 @@
+{
+  "name": "zendesk-ticket-create",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "ticket",
+        "properties",
+        "via",
+        "properties",
+        "source"
+      ]
+    },
+    {
+      "message": "due_at in properties should have a matching type.",
+      "path": [
+        "properties",
+        "ticket",
+        "properties",
+        "due_at"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "ticket",
+        "properties",
+        "sharing_agreement_ids"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "ticket",
+        "properties",
+        "fields"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "audit",
+        "properties",
+        "via",
+        "properties",
+        "source"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "audit",
+        "properties",
+        "metadata",
+        "properties",
+        "system"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "audit",
+        "properties",
+        "metadata",
+        "properties",
+        "custom"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "audit",
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "attachments"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "audit",
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "via",
+        "properties",
+        "source"
+      ]
+    }
+  ]
+}

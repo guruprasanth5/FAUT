@@ -1,0 +1,47 @@
+{
+  "name": "google-mail-attachment-get",
+  "version": "v3",
+  "createdAt": "Fri Feb 03 2017 18:20:37 GMT+0530 (IST)",
+  "result": [
+    {
+      "value": [
+        {
+          "file_path": "/root/userdata/IIAB - Partner Admin.bmpr",
+          "file_name": "IIAB - Partner Admin.bmpr",
+          "MIMEType": "application/octet-stream"
+        }
+      ],
+      "displayTitle": "Results",
+      "title": "results",
+      "type": "array",
+      "variable": "{{$actid.results}}"
+    },
+    {
+      "value": "/root/userdata/IIAB - Partner Admin.bmpr",
+      "displayTitle": "File Path",
+      "title": "file_path",
+      "type": "string",
+      "variable": "{{$actid.results[0].file_path}}"
+    },
+    {
+      "value": "IIAB - Partner Admin.bmpr",
+      "displayTitle": "File Name",
+      "title": "file_name",
+      "type": "string",
+      "variable": "{{$actid.results[0].file_name}}"
+    },
+    {
+      "value": "application/octet-stream",
+      "displayTitle": "MIME Type",
+      "title": "MIMEType",
+      "type": "string",
+      "variable": "{{$actid.results[0].MIMEType}}"
+    },
+    {
+      "displayTitle": "Size",
+      "title": "Size",
+      "type": "number",
+      "variable": "{{$actid.results[0].Size}}"
+    }
+  ]
+}

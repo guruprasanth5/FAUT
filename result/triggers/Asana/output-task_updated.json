@@ -1,0 +1,35 @@
+{
+  "name": "Asana-task_updated",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "completed_at in properties should have a matching type.",
+      "path": [
+        "properties",
+        "completed_at"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "tags"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "memberships",
+        "items",
+        "properties",
+        "section"
+      ]
+    }
+  ]
+}

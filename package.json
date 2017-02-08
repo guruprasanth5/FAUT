@@ -1,0 +1,23 @@
+{
+  "name": "faut",
+  "version": "1.0.1",
+  "description": "Flow Activity Utility Tool (FAUT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:onlyschema": "node index.js",
+    "validate:full": "node ./'single validation'",
+    "triggerinfo": "node infoGetter trigger",
+    "actioninfo": "node infoGetter action"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2",
+    "ngrok": "^2.2.6",
+    "pug": "^2.0.0-beta10",
+    "rest": "^2.0.0"
+  }
+}

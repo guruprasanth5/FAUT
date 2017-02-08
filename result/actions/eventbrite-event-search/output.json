@@ -1,0 +1,111 @@
+{
+  "name": "eventbrite-event-search",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "description"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "start"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "end"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "category"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "format"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "venue"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "ticket_classes"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "logo"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "events",
+        "items",
+        "properties",
+        "organizer"
+      ]
+    }
+  ]
+}

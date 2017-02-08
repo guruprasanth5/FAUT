@@ -1,0 +1,197 @@
+{
+  "name": "jive-place-groups-get",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "startIndex"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "itemsPerPage"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "links"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "links",
+        "properties",
+        "previous"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "links",
+        "properties",
+        "next"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "placeID"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "published"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "updated"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "memberCount"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "viewCount"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "displayName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "groupType"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "status"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "creator"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "creator",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list",
+        "items",
+        "properties",
+        "creator",
+        "properties",
+        "displayName"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "list"
+      ]
+    }
+  ]
+}

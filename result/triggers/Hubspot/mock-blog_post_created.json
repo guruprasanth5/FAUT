@@ -1,0 +1,23 @@
+{
+  "name": "Hubspot",
+  "version": "v5",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "post_summary is missing.",
+      "path": []
+    },
+    {
+      "message": "created must be a number.",
+      "path": [
+        "created"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "last_edit_update_id"
+      ]
+    }
+  ]
+}

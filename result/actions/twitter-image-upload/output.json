@@ -1,0 +1,68 @@
+{
+  "name": "twitter-image-upload",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "id_str"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "user",
+        "properties",
+        "id_str"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "entities",
+        "properties",
+        "hashtags"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "entities",
+        "properties",
+        "symbols"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "entities",
+        "properties",
+        "user_mentions"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "entities",
+        "properties",
+        "urls"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "extended_entities",
+        "properties",
+        "media"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Hubspot",
+  "version": "v5",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "must be a string.",
+      "path": [
+        "last_edit_session_id"
+      ]
+    },
+    {
+      "message": "updated must be a number.",
+      "path": [
+        "updated"
+      ]
+    },
+    {
+      "message": "post_summary is missing.",
+      "path": []
+    },
+    {
+      "message": "page_id must be a number.",
+      "path": [
+        "page_id"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "last_edit_update_id"
+      ]
+    },
+    {
+      "message": "created must be a number.",
+      "path": [
+        "blog_author",
+        "created"
+      ]
+    }
+  ]
+}

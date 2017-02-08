@@ -1,0 +1,33 @@
+{
+  "name": "quickbooks-salesreceipt-create",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "PaymentRefNum"
+      ]
+    },
+    {
+      "message": "type integer should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "SalesItemLineDetail",
+        "items",
+        "properties",
+        "SalesSubDetail",
+        "properties",
+        "UnitPrice"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "time"
+      ]
+    }
+  ]
+}

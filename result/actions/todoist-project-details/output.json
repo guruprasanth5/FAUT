@@ -1,0 +1,41 @@
+{
+  "name": "todoist-project-details",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "parent_id in properties should have a matching type.",
+      "path": [
+        "properties",
+        "parent_id"
+      ]
+    },
+    {
+      "message": "file_attachment in properties should have a matching type.",
+      "path": [
+        "properties",
+        "notes",
+        "items",
+        "properties",
+        "file_attachment"
+      ]
+    },
+    {
+      "message": "uids_to_notify in properties should have a matching type.",
+      "path": [
+        "properties",
+        "notes",
+        "items",
+        "properties",
+        "uids_to_notify"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "notes"
+      ]
+    }
+  ]
+}

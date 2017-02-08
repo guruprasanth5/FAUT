@@ -1,0 +1,52 @@
+{
+  "name": "Stripe",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "must be a string.",
+      "path": [
+        "amount"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "amount_refunded"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "captured"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "description"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "source",
+        "address_line2"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "source",
+        "address_state"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "source",
+        "exp_year"
+      ]
+    }
+  ]
+}

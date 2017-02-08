@@ -1,0 +1,37 @@
+{
+  "name": "stripe-charges-create",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "source",
+        "properties",
+        "metadata"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "metadata"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "fraud_details"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "refunds"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+    "name": "",
+    "version": "",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "guid": {
+                "type": "string",
+                "title": "guid",
+                "displayTitle": "Note Guid"
+            },
+            "title": {
+                "type": "string",
+                "title": "title",
+                "displayTitle": "Note Title"
+            },
+            "content_xml": {
+                "type": "string",
+                "title": "content_xml",
+                "displayTitle": "Content XML"
+            },
+            "content_text": {
+                "type": "string",
+                "title": "content_text",
+                "displayTitle": "Content Text"
+            },
+            "contentLength": {
+                "type": "number",
+                "title": "contentLength",
+                "displayTitle": "Content Length"
+            },
+            "created": {
+                "type": "string",
+                "title": "created",
+                "displayTitle": "Created Time"
+            },
+            "updated": {
+                "type": "string",
+                "title": "updated",
+                "displayTitle": "Updated Time"
+            },
+            "deleted": {
+                "type": "string",
+                "title": "deleted"
+            },
+            "updateSequenceNum": {
+                "type": "number",
+                "title": "updateSequenceNum",
+                "displayTitle": "Update Sequence Number"
+            },
+            "notebookGuid": {
+                "type": "string",
+                "title": "notebookGuid",
+                "displayTitle": "Notebook Guid"
+            },
+            "URL": {
+                "type": "string",
+                "title": "URL",
+                "displayTitle": "URL"
+            },
+            "tagGuids": {
+                "type": "string",
+                "title": "tagGuids",
+                "displayTitle": "Tag GUIDs",
+                "items": {}
+            },
+            "resources": {
+                "type": "string",
+                "title": "resources",
+                "displayTitle": "Resources",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "guid": {
+                            "title": "guid",
+                            "type": "string",
+                            "displayTitle": "Resource GUID"
+                        },
+                        "noteGuid": {
+                            "title": "noteGuid",
+                            "type": "string",
+                            "displayTitle": "Resource Note GUID"
+                        }
+                    }
+                }
+            },
+            "attributes": {
+                "title": "attributes",
+                "type": "object",
+                "displayTitle": "Attributes",
+                "properties": {
+                    "subjectDate": {
+                        "title": "subjectDate",
+                        "type": "any",
+                        "displayTitle": "Attributes Subject Date"
+                    },
+                    "latitude": {
+                        "title": "latitude",
+                        "type": "number",
+                        "displayTitle": "Attributes Latitude"
+                    },
+                    "longitude": {
+                        "title": "longitude",
+                        "type": "number",
+                        "displayTitle": "Attributes Longitude"
+                    },
+                    "altitude": {
+                        "title": "altitude",
+                        "type": "number",
+                        "displayTitle": "Attributes Altitude"
+                    },
+                    "author": {
+                        "title": "author",
+                        "type": "any",
+                        "displayTitle": "Attributes Author"
+                    },
+                    "source": {
+                        "title": "source",
+                        "type": "any",
+                        "displayTitle": "Attributes Source"
+                    },
+                    "sourceURL": {
+                        "title": "sourceURL",
+                        "type": "string",
+                        "displayTitle": "Attributes Source URL"
+                    },
+                    "sourceApplication": {
+                        "title": "sourceApplication",
+                        "type": "any",
+                        "displayTitle": "Attributes Source Application"
+                    },
+                    "shareDate": {
+                        "title": "shareDate",
+                        "type": "any",
+                        "displayTitle": "Attributes Share Date"
+                    },
+                    "reminderOrder": {
+                        "title": "reminderOrder",
+                        "type": "string",
+                        "displayTitle": "Attributes Reminder Order"
+                    },
+                    "reminderDoneTime": {
+                        "title": "reminderDoneTime",
+                        "type": "any",
+                        "displayTitle": "Attributes Reminder Done Time"
+                    },
+                    "reminderTime": {
+                        "title": "reminderTime",
+                        "type": "string",
+                        "displayTitle": "Attributes Reminder Time"
+                    },
+                    "placeName": {
+                        "title": "placeName",
+                        "type": "string",
+                        "displayTitle": "Attributes Place Name"
+                    },
+                    "contentClass": {
+                        "title": "contentClass",
+                        "type": "any",
+                        "displayTitle": "Attributes Content Class"
+                    },
+                    "applicationData": {
+                        "title": "applicationData",
+                        "type": "any",
+                        "displayTitle": "Attributes Application Data"
+                    },
+                    "lastEditedBy": {
+                        "title": "lastEditedBy",
+                        "type": "string",
+                        "displayTitle": "Attributes Last Edited By"
+                    },
+                    "classifications": {
+                        "title": "classifications",
+                        "type": "any",
+                        "displayTitle": "Attributes Classifications"
+                    },
+                    "creatorId": {
+                        "title": "creatorId",
+                        "type": "string",
+                        "displayTitle": "Attributes Creator ID"
+                    },
+                    "lastEditorId": {
+                        "title": "lastEditorId",
+                        "type": "string",
+                        "displayTitle": "Attributes LastEditor ID"
+                    }
+                }
+            }
+        }
+    }
+}

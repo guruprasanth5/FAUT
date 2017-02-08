@@ -1,0 +1,13 @@
+{
+  "name": "OneNote",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "parentSectionGroup must be a plain object.",
+      "path": [
+        "parentSectionGroup"
+      ]
+    }
+  ]
+}

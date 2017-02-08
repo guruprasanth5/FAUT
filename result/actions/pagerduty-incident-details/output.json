@@ -1,0 +1,34 @@
+{
+  "name": "pagerduty-incident-details",
+  "version": "v1",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "incident",
+        "properties",
+        "pending_actions"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "incident",
+        "properties",
+        "trigger_type"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "incident",
+        "properties",
+        "assigned_to"
+      ]
+    }
+  ]
+}

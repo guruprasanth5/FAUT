@@ -1,0 +1,720 @@
+{
+  "name": "jive-direct-message-post",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "entityType"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "resources"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "resources"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "followerCount"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "followed"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "published"
+      ]
+    },
+    {
+      "message": "type array should have 'items' key.",
+      "path": [
+        "properties",
+        "tags"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "tags"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "updated"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "iconCss"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "parentPlace"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parentPlace",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parentPlace",
+        "properties",
+        "html"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parentPlace",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parentPlace",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parentPlace",
+        "properties",
+        "uri"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "contentID"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "author"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "resources"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "resources"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "followerCount"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "followed"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "published"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "updated"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "displayName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "mentionName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_label"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "primary"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "value"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_displayOrder"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_summaryDisplayOrder"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_showSummaryLabel"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "emails"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "followingCount"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "directReportCount"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "jive"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "jive"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "thumbnailId"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "thumbnailUrl"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "author",
+        "properties",
+        "typeCode"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "content"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "content"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parent"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "replyCount"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "status"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "subject"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "viewCount"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "visibleToExternalContributors"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parentVisible"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "parentContentVisible"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "abuseCount"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "resources"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "resources"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "displayName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_label"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "primary"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "value"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_displayOrder"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_summaryDisplayOrder"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_showSummaryLabel"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "emails"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "jive"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "jive"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants",
+        "items",
+        "properties",
+        "formatted"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "participants"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "typeActual"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "typeCode"
+      ]
+    }
+  ]
+}

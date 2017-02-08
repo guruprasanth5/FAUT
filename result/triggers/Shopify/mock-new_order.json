@@ -1,0 +1,38 @@
+{
+  "name": "Shopify",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "schema must have a type.",
+      "path": [
+        "payment_gateway_names",
+        0
+      ]
+    },
+    {
+      "message": "sku must be a number.",
+      "path": [
+        "line_items",
+        0,
+        "sku"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "line_items",
+        0,
+        "product_exists"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "line_items",
+        0,
+        "fulfillable_quantity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Google Calendar",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "displayName is missing.",
+      "path": [
+        "attendees",
+        0
+      ]
+    },
+    {
+      "message": "organizer is missing.",
+      "path": [
+        "attendees",
+        1
+      ]
+    },
+    {
+      "message": "organizer is missing.",
+      "path": [
+        "attendees",
+        2
+      ]
+    },
+    {
+      "message": "organizer is missing.",
+      "path": [
+        "attendees",
+        3
+      ]
+    }
+  ]
+}

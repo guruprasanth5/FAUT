@@ -1,0 +1,47 @@
+{
+    "guid": "20ea4502-52b5-b464954e9af9",
+    "title": "Testing",
+    "content": null,
+    "contentLength": 183,
+    "created": "2014-09-15T07:02:48.000Z",
+    "updated": "2014-09-15T07:02:57.000Z",
+    "deleted": "",
+    "active": true,
+    "updateSequenceNum": 94,
+    "notebookGuid": "db127a69-5b00-e732009d50de",
+    "URL": "https://www.evernote.com/Home.action#n=20ea4502-52b5-b464954e9af9",
+    "tagGuids": [
+        "bb652c3a-a1a0-54f581e1b564",
+        "96c6adf8-b7de-3a15b8610908"
+    ],
+    "resources": [
+        {
+            "guid": "c7d40866-15bfde7b485c",
+            "noteGuid": "1c0c99d5-88dc-d59125340d6e"
+        }
+    ],
+    "attributes": {
+        "subjectDate": null,
+        "latitude": null,
+        "longitude": null,
+        "altitude": null,
+        "author": "mike",
+        "source": null,
+        "sourceURL": null,
+        "sourceApplication": null,
+        "shareDate": null,
+        "reminderOrder": null,
+        "reminderDoneTime": null,
+        "reminderTime": "",
+        "placeName": null,
+        "contentClass": null,
+        "applicationData": null,
+        "lastEditedBy": null,
+        "classifications": null,
+        "creatorId": null,
+        "lastEditorId": null
+    },
+    "tagNames": null,
+    "content_xml": "<!DOCTYPE en-note SYSTEM \"http://xml.evernote.com/pub/enml2.dtd\"><en-note><div>test</div></en-note>",
+    "content_text": "test"
+}

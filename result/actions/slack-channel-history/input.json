@@ -1,0 +1,25 @@
+{
+  "name": "slack-channel-history",
+  "version": "v2",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "0 value of enum should be an number.",
+      "path": [
+        "properties",
+        "inclusive",
+        "enum",
+        0
+      ]
+    },
+    {
+      "message": "1 value of enum should be an number.",
+      "path": [
+        "properties",
+        "inclusive",
+        "enum",
+        1
+      ]
+    }
+  ]
+}

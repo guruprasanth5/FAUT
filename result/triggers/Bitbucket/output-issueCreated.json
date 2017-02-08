@@ -1,0 +1,42 @@
+{
+  "name": "Bitbucket-issueCreated",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type object should have displayTitle key.",
+      "path": []
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "issue",
+        "properties",
+        "content",
+        "properties",
+        "markup"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "issue",
+        "properties",
+        "content",
+        "properties",
+        "html"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "issue",
+        "properties",
+        "watches"
+      ]
+    }
+  ]
+}

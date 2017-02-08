@@ -1,0 +1,230 @@
+{
+  "name": "jive-person-get",
+  "version": "v4",
+  "createdAt": "Wed Jan 25 2017 17:52:54 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "id"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "followerCount"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "followed"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "published"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "updated"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "displayName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "mentionName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_label"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "primary"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "value"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_displayOrder"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_summaryDisplayOrder"
+      ]
+    },
+    {
+      "message": "type boolean should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails",
+        "items",
+        "properties",
+        "jive_showSummaryLabel"
+      ]
+    },
+    {
+      "message": "type array should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "emails"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "followingCount"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "directReportCount"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "jive"
+      ]
+    },
+    {
+      "message": "type object should have properties key.",
+      "path": [
+        "properties",
+        "jive"
+      ]
+    },
+    {
+      "message": "type object should have displayTitle key.",
+      "path": [
+        "properties",
+        "name"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "name",
+        "properties",
+        "formatted"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "name",
+        "properties",
+        "familyName"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "name",
+        "properties",
+        "givenName"
+      ]
+    },
+    {
+      "message": "type number should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "thumbnailId"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "thumbnailUrl"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "initialLogin"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "type"
+      ]
+    },
+    {
+      "message": "type string should have 'displayTitle' key.",
+      "path": [
+        "properties",
+        "typeCode"
+      ]
+    }
+  ]
+}

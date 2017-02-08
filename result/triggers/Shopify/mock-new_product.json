@@ -1,0 +1,56 @@
+{
+  "name": "Shopify",
+  "version": "v3",
+  "createdAt": "Wed Jan 25 2017 18:04:36 GMT+0530 (IST)",
+  "errors": [
+    {
+      "message": "must be a string.",
+      "path": [
+        "variants",
+        0,
+        "id"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "variants",
+        0,
+        "product_id"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "variants",
+        0,
+        "grams"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "variants",
+        0,
+        "inventory_quantity"
+      ]
+    },
+    {
+      "message": "must be a string.",
+      "path": [
+        "variants",
+        0,
+        "old_inventory_quantity"
+      ]
+    },
+    {
+      "message": "schema must have a type.",
+      "path": [
+        "options",
+        0,
+        "values",
+        0
+      ]
+    }
+  ]
+}
