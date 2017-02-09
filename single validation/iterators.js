@@ -117,9 +117,9 @@ function getValue(path, data) {
 }
 
 function catchify(data, path) {
-    if (data) {
+    if (data !== undefined) {
         if (data[path[0]] || data[path[0]] === false || data[path[0]] === 0 || data[path[0]] === null) {
-            return data;
+            return data[path[0]];
         }
     }
 
