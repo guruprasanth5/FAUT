@@ -1,6 +1,7 @@
 *node_modules
 config.js
-result/actions*
-result/trigger*
-infoResult*
-singleRunResult/*
+result/actions/
+result/trigger/*
+infoResult/*
+singleRunResult/action*
+singleRunResult/action*
