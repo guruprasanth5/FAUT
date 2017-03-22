@@ -6,6 +6,9 @@ module.exports = {
 	string  :require('./string'),
 	number  :require('./number'),
 	integer :require('./integer'),
+	date :require('./date'),
+	time :require('./time'),
+	datetime :require('./datetime'),
 	any : require('./any')
 };
 
