@@ -65,8 +65,8 @@ function verifyTrigger(body, trigger) {
     }
 
     var sov = schemaOnlyValidator.runSingleTrigger(trigger, body.event, 'singleRunResult/trigger/');
-    var dtv = fileManager.writeFile('singleRunResult/trigger/' + trigger.title + '/values-' + body.event + '.json', resultToWrite);
-    var rtv = renderer.renderValues(resultToRender,'singleRunResult/trigger/' + trigger.title + '/values-' + body.event + '.html')
+    var dtv = fileManager.writeFile('singleRunResult/trigger/' + trigger.title.repalce('/',' ') + '/values-' + body.event.repalce('/',' ') + '.json', resultToWrite);
+    var rtv = renderer.renderValues(resultToRender,'singleRunResult/trigger/' + trigger.title.repalce('/',' ') + '/values-' + body.event.repalce('/',' ') + '.html')
 
     return Promise.all([sov, dtv, rtv])
 }
@@ -123,8 +123,8 @@ function verifyAction(body, action) {
     }
 
     var sov = schemaOnlyValidator.runSingleAction(action, 'singleRunResult/action/');
-    var dtv = fileManager.writeFile('singleRunResult/action/' + action.label + '/values.json', resultToWrite);
-    var rtv = renderer.renderValues(resultToRender,'singleRunResult/action/' + action.label + '/values.html')    
+    var dtv = fileManager.writeFile('singleRunResult/action/' + action.label.replace('/',' ') + '/values.json', resultToWrite);
+    var rtv = renderer.renderValues(resultToRender,'singleRunResult/action/' + action.label.replace('/',' ') + '/values.html')    
 
     return Promise.all([sov, dtv, rtv])
 

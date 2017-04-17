@@ -191,7 +191,7 @@ function deleteAllActions() {
 
 function runSingleAction(action,path) {
 
-    var folderPath = path+ action.label;
+    var folderPath = path+ action.label.replace('/',' ');
     // console.log('Action Title', action.name);
 
     fileManager.createFolder(folderPath);
