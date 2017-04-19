@@ -65,8 +65,8 @@ function verifyTrigger(body, trigger) {
     }
 
     var sov = schemaOnlyValidator.runSingleTrigger(trigger, body.event, 'singleRunResult/trigger/');
-    var dtv = fileManager.writeFile('singleRunResult/trigger/' + trigger.title.repalce('/',' ') + '/values-' + body.event.repalce('/',' ') + '.json', resultToWrite);
-    var rtv = renderer.renderValues(resultToRender,'singleRunResult/trigger/' + trigger.title.repalce('/',' ') + '/values-' + body.event.repalce('/',' ') + '.html')
+    var dtv = fileManager.writeFile('singleRunResult/trigger/' + trigger.title.replace('/',' ') + '/values-' + body.event.replace('/',' ') + '.json', resultToWrite);
+    var rtv = renderer.renderValues(resultToRender,'singleRunResult/trigger/' + trigger.title.replace('/',' ') + '/values-' + body.event.repalce('/',' ') + '.html')
 
     return Promise.all([sov, dtv, rtv])
 }
