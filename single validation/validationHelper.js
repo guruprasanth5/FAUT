@@ -34,8 +34,11 @@ function verifyTrigger(body, trigger) {
     trigger.mock_data = JSON.parse(trigger.mock_data);
     trigger.input = JSON.parse(trigger.input);
     trigger.output = JSON.parse(trigger.output);
-    if (!trigger.output[body.event] || !trigger.mock_data[body.event]) {
-        return { message: 'no trigger event ' + body.event + ' found' };
+    if (!trigger.output[body.event]) {
+        return Promise.reject({ message: 'no trigger event ' + body.event + ' found in output' });
+    }
+    if(!trigger.mock_data[body.event]){
+        return Promise.reject({ message: 'no trigger event ' + body.event + ' found in mock_data' })
     }
     var displayOutput = iterators.parseOutput(trigger.output[body.event]);
 

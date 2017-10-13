@@ -18,17 +18,17 @@ html
             div(class="table-container" style={'margin-left':'10px','margin-top': '25px'})
                 table(class="table")
                     tr
+                        th Title
                         th Display title
                         th Type
                         th Value
-                        th Title
                         th Variable
                     each obj in data.result
                         tr
+                            td=obj.title
                             td=obj.displayTitle
                             td=obj.type
                             td=parse(obj.value)
-                            td=obj.title
                             td=obj.variable
                     
 

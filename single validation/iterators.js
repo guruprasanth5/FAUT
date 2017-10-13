@@ -18,13 +18,13 @@ function activityOutputParser(data) {
         let arr = [];
         for (let key in data.properties) {
             let hasProperties = data.properties[key].hasOwnProperty('properties') || data.properties[key].hasOwnProperty('items');
-            if (!data.properties[key].displayTitle) {
-                continue;
-            }
+            // if (!data.properties[key].displayTitle) {
+            //     continue;
+            // }
             let bucket = {
                 title: data.properties[key].title || key,
                 type: data.properties[key].type,
-                displayTitle: data.properties[key].displayTitle || data.properties[key].title || key,
+                displayTitle: data.properties[key].displayTitle || '',
                 child: hasProperties ? activityOutputParser(data.properties[key]) : []
             }
             arr.push(bucket);
